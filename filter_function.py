@@ -19,4 +19,7 @@ greater_than_three_numbers_lambda = list(filter(lambda n: n > 3, numbers))
 print(greater_than_three_numbers_lambda)
 def starts_with_a(s):
     return s.startswith('a')
+names = ["alice", "bob", "anita", "mark"]
 
+starts_with_a = list(filter(lambda n: n.startswith("a"), names))
+print(starts_with_a)
