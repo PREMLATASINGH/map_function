@@ -32,3 +32,8 @@ name_lengths = list(map(get_name_length, names))
 print(name_lengths)
 name_lengths_lambda = list(map(lambda name: len(name), names))
 print(name_lengths_lambda)
+def is_even(n):
+    return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+even_numbers = list(filter(is_even, numbers))
+print(even_numbers)
