@@ -30,3 +30,5 @@ def get_name_length(name):
 names = ['Alice', 'Bob', 'Charlie']
 name_lengths = list(map(get_name_length, names))
 print(name_lengths)
+name_lengths_lambda = list(map(lambda name: len(name), names))
+print(name_lengths_lambda)
