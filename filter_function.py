@@ -9,3 +9,5 @@ def odd(n_):
         return n_ % 2 != 0
 odd_numbers = list(filter(odd, numbers))
 print(odd_numbers)
+odd_numbers_lambda = list(filter(lambda n_: n_ % 2 != 0, numbers))
+print(odd_numbers_lambda)
