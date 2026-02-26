@@ -26,3 +26,5 @@ print(starts_with_a)
 num3=[1,2,3,4,5,6]
 greater_than_five=list(filter(lambda x:x>5,num3))
 print(greater_than_five)
+even_and_greater_than_three=list(filter(lambda x:x>3 and x%2==0,num3))
+print(even_and_greater_than_three)
