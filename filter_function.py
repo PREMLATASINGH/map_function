@@ -17,3 +17,6 @@ greater_than_three_numbers = list(filter(greater_than_three, numbers))
 print(greater_than_three_numbers)
 greater_than_three_numbers_lambda = list(filter(lambda n: n > 3, numbers))
 print(greater_than_three_numbers_lambda)
+def starts_with_a(s):
+    return s.startswith('a')
+
