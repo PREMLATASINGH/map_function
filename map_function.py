@@ -18,3 +18,6 @@ print(multiplied_numbers)
 str_numbers = ['1', '2', '3']
 int_numbers = list(map(int, str_numbers))
 print(int_numbers)
+word= ['hello', 'world']
+upper_words = list(map(str.upper, word))
+print(upper_words)
