@@ -11,3 +11,7 @@ odd_numbers = list(filter(odd, numbers))
 print(odd_numbers)
 odd_numbers_lambda = list(filter(lambda n_: n_ % 2 != 0, numbers))
 print(odd_numbers_lambda)
+def greater_than_three(n):
+    return n > 3
+greater_than_three_numbers = list(filter(greater_than_three, numbers))
+print(greater_than_three_numbers)
