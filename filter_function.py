@@ -23,3 +23,6 @@ names = ["alice", "bob", "anita", "mark"]
 
 starts_with_a = list(filter(lambda n: n.startswith("a"), names))
 print(starts_with_a)
+num3=[1,2,3,4,5,6]
+greater_than_five=list(filter(lambda x:x>5,num3))
+print(greater_than_five)
