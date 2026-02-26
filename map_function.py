@@ -21,3 +21,5 @@ print(int_numbers)
 word= ['hello', 'world']
 upper_words = list(map(str.upper, word))
 print(upper_words)
+lower_words = list(map(str.lower, upper_words))
+print(lower_words)
