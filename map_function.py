@@ -15,3 +15,6 @@ added_numbers = list(map(lambda x, y: x + y, num1, num2))
 print(added_numbers)
 multiplied_numbers = list(map(lambda x, y: x * y, num1, num2))
 print(multiplied_numbers)
+str_numbers = ['1', '2', '3']
+int_numbers = list(map(int, str_numbers))
+print(int_numbers)
