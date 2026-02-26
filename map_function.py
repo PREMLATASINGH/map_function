@@ -13,3 +13,5 @@ num1= [1, 2, 3]
 num2= [4, 5, 6]
 added_numbers = list(map(lambda x, y: x + y, num1, num2))
 print(added_numbers)
+multiplied_numbers = list(map(lambda x, y: x * y, num1, num2))
+print(multiplied_numbers)
