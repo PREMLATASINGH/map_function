@@ -28,3 +28,11 @@ greater_than_five=list(filter(lambda x:x>5,num3))
 print(greater_than_five)
 even_and_greater_than_three=list(filter(lambda x:x>3 and x%2==0,num3))
 print(even_and_greater_than_three)
+people=[
+     {'name':'raju','age':34},
+       {'name':'raja','age':24}
+]
+def age_greater_than_25(person):
+     return person['age']>25
+person=(list(filter (age_greater_than_25,people)))
+print(person)
