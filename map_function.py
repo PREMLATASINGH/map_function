@@ -9,3 +9,7 @@ squared_numbers_lambda = list(map(lambda x: x * x, numbers))
 print(squared_numbers_lambda)
 cubed_numbers = list(map(lambda x: x ** 3, numbers))
 print(cubed_numbers)
+num1= [1, 2, 3]
+num2= [4, 5, 6]
+added_numbers = list(map(lambda x, y: x + y, num1, num2))
+print(added_numbers)
