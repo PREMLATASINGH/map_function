@@ -25,3 +25,8 @@ lower_words = list(map(str.lower, upper_words))
 print(lower_words)
 print(type(squared_numbers))
 print(type(upper_words))
+def get_name_length(name):
+    return len(name)
+names = ['Alice', 'Bob', 'Charlie']
+name_lengths = list(map(get_name_length, names))
+print(name_lengths)
