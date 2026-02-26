@@ -15,3 +15,5 @@ def greater_than_three(n):
     return n > 3
 greater_than_three_numbers = list(filter(greater_than_three, numbers))
 print(greater_than_three_numbers)
+greater_than_three_numbers_lambda = list(filter(lambda n: n > 3, numbers))
+print(greater_than_three_numbers_lambda)
